@@ -42,3 +42,11 @@ def start(message):
     first_msg = DLineCalc_bot.send_message(message.chat.id, msg, parse_mode='html', reply_markup=key)
     return first_msg
 
+
+@DLineCalc_bot.message_handler(content_types=['text'])
+def calc(message):
+    if message.text == "Калькулятор":
+        DLineCalc_bot.send_message(message.from_user.id, "0", reply_markup=keyboard)
+
+
+
