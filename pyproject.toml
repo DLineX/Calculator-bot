@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "calculatorbot"
+version = "0.1.0"
+description = "Calculator bot for telegram"
+authors = ["DaniilIslamgaliev <dante9226@mail.ru>"]
+readme = "README.md"
+packages = [
+{include = "calcbot"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyTelegramBotAPI = "^4.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
