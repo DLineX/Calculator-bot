@@ -13,7 +13,15 @@ git clone https://github.com/DLineX/Calculator-bot.git
 pip install pytelegrambotapi
 ```
 
-3. Запустить `bot.py`.
+3. Найти в Telegram бота `@BotFather`.
+
+4. Зарегистрировать бота:
+	`1. Написать /start или /newbot.`
+	`2. Заполнить необходимую информацию.`
+	`3. Скопировать полученный после регистрации бота токен`
+	`4. Вместо TELEGRAMBOT_TOKEN вставить скопированный токен`
+
+5. Запустить `bot.py`.
 ```
 python3 bot.py
 ```
