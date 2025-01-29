@@ -7,7 +7,7 @@
 git clone https://github.com/DLineX/Calculator-bot.git
 ```
 
-2. Установить (pyTelegramBotAPI)[https://pytba.readthedocs.io/en/latest/index.html].
+2. Установить [pyTelegramBotAPI](https://pytba.readthedocs.io/en/latest/index.html).
 
 ```
 pip install pytelegrambotapi
