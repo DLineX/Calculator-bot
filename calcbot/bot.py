@@ -1,6 +1,6 @@
 from telebot import types
 import telebot
-DLineCalc_bot = telebot.TeleBot('7776091392:AAE4_c9LL0kEeAadkNIpkMVNeopQ4yY4mZs')
+DLineCalc_bot = telebot.TeleBot('TELEGRAMBOT_TOKEN')
 
 
 num = ''
